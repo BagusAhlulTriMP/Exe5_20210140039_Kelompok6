@@ -34,7 +34,11 @@ namespace Exe_5
         }
         public void Display()
         {
-
+            if(Bagus == null)
+            {
+                Console.WriteLine("\nQueue is empty");
+                return;
+            }
         }
     }
 }
