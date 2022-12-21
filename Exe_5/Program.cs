@@ -23,7 +23,11 @@ namespace Exe_5
 
         public void Insert()
         {
-
+            string add;
+            node newnode = new node();
+            Console.WriteLine("Masukkan Element : ");
+            add = Console.ReadLine();
+            newnode.name = add;
         }
         public void delete()
         {
