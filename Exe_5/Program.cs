@@ -32,5 +32,9 @@ namespace Exe_5
             if (Bagus == null)
                 Putro = null;
         }
+        public void Display()
+        {
+
+        }
     }
 }
