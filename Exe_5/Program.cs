@@ -29,6 +29,14 @@ namespace Exe_5
             add = Console.ReadLine();
             newnode.name = add;
             newnode.next = Putro;
+            if(Bagus == null)
+            {
+                Bagus = newnode;
+                Putro = newnode;
+                return;
+            }
+            Putro.next = newnode;
+            Putro = newnode;
         }
         public void delete()
         {
