@@ -28,7 +28,7 @@ namespace Exe_5
             Console.WriteLine("Masukkan Element : ");
             add = Console.ReadLine();
             newnode.name = add;
-            newnode.next = Putro;
+            newnode.next = null;
             if(Bagus == null)
             {
                 Bagus = newnode;
