@@ -20,5 +20,17 @@ namespace Exe_5
             Bagus = null;
             Putro = null;
         }
+
+        public void delete()
+        {
+            if(Putro == null)
+            {
+                Console.WriteLine("\nList is empty");
+                return;
+            }
+            Putro = Putro.next;
+            if (Bagus == null)
+                Putro = null;
+        }
     }
 }
