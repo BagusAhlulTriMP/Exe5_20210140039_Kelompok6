@@ -40,12 +40,12 @@ namespace Exe_5
         }
         public void delete()
         {
-            if(Putro == null)
+            if(Bagus == null)
             {
                 Console.WriteLine("\nList is empty");
                 return;
             }
-            Putro = Putro.next;
+            Bagus = Bagus.next;
             if (Bagus == null)
                 Putro = null;
         }
@@ -77,7 +77,7 @@ namespace Exe_5
                     Console.WriteLine("3.Melihat semua data  di dalam List");
                     Console.WriteLine("4.Exit");
                     Console.WriteLine("Masukkan pilihan anda (1 - 4: ");
-                    ch = Convert.ToChar(Console.ReadKey());
+                    ch = Convert.ToChar(Console.ReadLine());
                     switch (ch)
                     {
                         case '1':
