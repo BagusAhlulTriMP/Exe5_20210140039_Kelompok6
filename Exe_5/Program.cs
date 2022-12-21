@@ -21,6 +21,10 @@ namespace Exe_5
             Putro = null;
         }
 
+        public void Insert()
+        {
+
+        }
         public void delete()
         {
             if(Putro == null)
